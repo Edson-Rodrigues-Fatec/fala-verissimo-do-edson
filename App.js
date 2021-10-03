@@ -48,7 +48,7 @@ setFalando(false)
     <FontAwesome name="comment-o" size={30}/>
     Fala Veríssimo! {falando} </Text>
     <Image source= {verissimo} style={styles.Imagem}></Image>
-   { falando && <ActivityIndicator size="large" color="#0275d8"/> 
+   { falando && <ActivityIndicator size="large" color="#0275d8"/>  
    }
     <View style={styles.ViewBotao} >
     <FontAwesome.Button name= "volume-up" backgroundColor="#0275d8" onPress={falar} style={styles.Botao}>
